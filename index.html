@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sanketh - Data Analyst Portfolio. Specializing in turning raw data into actionable insights with SQL, Python, Power BI, Tableau, Excel, and database management.">
+  <title>Sanketh Bhandary | Data Analyst Portfolio</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/profile.png">
+  
+  <!-- Font Awesome for Dashboard Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Sticky Navigation Bar -->
+  <header class="navbar" id="mainHeader">
+    <div class="container nav-container">
+      <a href="#home" class="logo" aria-label="Sanketh Portfolio Home">
+        <span>SANKETH Bhandary</span><div class="logo-dot"></div>
+      </a>
+      
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <button class="menu-toggle" aria-label="Toggle Navigation Menu" aria-controls="mainHeader" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="section">
+      <div class="container hero-wrapper">
+        <div class="hero-content">
+          <span class="hero-tagline">Analytics & Intelligence</span>
+          <h1 class="hero-title">
+            <span class="name">Hi, I'm Sanketh</span>
+            <span class="role">DATA ANALYST</span>
+          </h1>
+          <p class="hero-subtitle">
+            Empowering data-driven decisions by transforming complex datasets into interactive dashboards and automated analytical pipelines.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary" aria-label="Scroll to projects">
+              View Projects <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+            </a>
+            <a href="files/Resume.pdf" class="btn btn-secondary" target="_blank" download="Sanketh_Resume.pdf" aria-label="Download Sanketh's Resume">
+              Download Resume <span class="btn-icon"><i class="fas fa-download"></i></span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="hero-image-wrapper">
+          <div class="hero-image-card">
+            <!-- Lazy loaded profile portrait image -->
+            <img src="images/profile.png" alt="Sanketh Data Analyst Portrait" loading="lazy">
+            
+            <!-- Dashboard Overlay Widget -->
+            <div class="stats-badge">
+              <div class="stats-icon">
+                <i class="fas fa-chart-bar"></i>
+              </div>
+              <div>
+                <div class="stats-number">98%</div>
+                <div class="stats-label">Accuracy Rate</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Summary</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+        
+        <div class="about-wrapper">
+          <div class="about-text">
+            <p>
+              I am a results-driven Data Analyst dedicated to helping organizations make informed, strategic decisions. I specialize in the end-to-end data lifecycle—from structured data cleaning and database management to dashboard development and business intelligence solutions. With expertise in SQL, Python, Excel, and Power BI, I transform messy, raw datasets into clean, reliable data structures and compile them into interactive, visually compelling reports.
+            </p>
+            <p>
+              I am passionate about continuous learning and keeping pace with evolving analytical tools to build efficient pipelines and dashboards. My goal is to bridge the gap between complex data and business insights, translating metrics into clear, actionable business strategies.
+            </p>
+          </div>
+          
+          <!-- Dashboard Performance Metrics Grid -->
+          <div class="about-metrics">
+            <div class="metric-card glass-card">
+              <div class="metric-num">3+</div>
+              <div class="metric-label">Years BCA Studies</div>
+            </div>
+            <div class="metric-card glass-card">
+              <div class="metric-num">9+</div>
+              <div class="metric-label">Data Projects</div>
+            </div>
+            <div class="metric-card glass-card">
+              <div class="metric-num">8+</div>
+              <div class="metric-label">Key Databases & Tools</div>
+            </div>
+            <div class="metric-card glass-card">
+              <div class="metric-num">100%</div>
+              <div class="metric-label">Data Integrity</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Capabilities</span>
+          <h2 class="section-title">Core Skills</h2>
+        </div>
+        
+        <div class="skills-grid">
+          <!-- Programming Category -->
+          <div class="skill-category glass-card">
+            <h3 class="skill-category-title">
+              <i class="fas fa-code"></i> Programming
+            </h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <span class="skill-name">SQL</span>
+                <span class="skill-type">Advanced</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Python</span>
+                <span class="skill-type">Intermediate</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">R Programming</span>
+                <span class="skill-type">Basic</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Data Analytics Category -->
+          <div class="skill-category glass-card">
+            <h3 class="skill-category-title">
+              <i class="fas fa-chart-pie"></i> Data Analytics
+            </h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <span class="skill-name">Excel</span>
+                <span class="skill-type">Advanced</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Power BI</span>
+                <span class="skill-type">Professional</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Database Category -->
+          <div class="skill-category glass-card">
+            <h3 class="skill-category-title">
+              <i class="fas fa-database"></i> Database
+            </h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <span class="skill-name">PostgreSQL</span>
+                <span class="skill-type">Advanced</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">MySQL</span>
+                <span class="skill-type">Advanced</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools Category -->
+          <div class="skill-category glass-card">
+            <h3 class="skill-category-title">
+              <i class="fas fa-toolbox"></i> Tools
+            </h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <span class="skill-name">Git</span>
+                <span class="skill-type">Advanced</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">GitHub</span>
+                <span class="skill-type">Advanced</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">VS Code</span>
+                <span class="skill-type">Advanced</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">MySQL Workbench</span>
+                <span class="skill-type">Advanced</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Case Studies</span>
+          <h2 class="section-title">Selected Projects</h2>
+        </div>
+        
+        <div class="projects-categories-grid">
+          <!-- SQL Projects Card -->
+          <article class="category-card glass-card" data-category="sql">
+            <div class="category-image">
+              <img src="images/sql_cleaning.png" alt="SQL Database Querying" loading="lazy">
+            </div>
+            <div class="category-content">
+              <h3 class="category-title">SQL Projects</h3>
+              <p class="category-subtitle">PostgreSQL & MySQL</p>
+              <div class="category-meta">
+                <span class="project-count">1 Projects</span>
+              </div>
+              <button class="btn btn-primary btn-view-projects" data-category="sql">
+                View Projects <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Excel Projects Card -->
+          <article class="category-card glass-card" data-category="excel">
+            <div class="category-image">
+              <img src="images/ecxel_dashboard_road_accident.png" alt="Excel Advanced Spreadsheets" loading="lazy">
+            </div>
+            <div class="category-content">
+              <h3 class="category-title">Excel Projects</h3>
+              <p class="category-subtitle">Dashboards & Analytics</p>
+              <div class="category-meta">
+                <span class="project-count">1 Projects</span>
+              </div>
+              <button class="btn btn-primary btn-view-projects" data-category="excel">
+                View Projects <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Power BI Projects Card -->
+          <article class="category-card glass-card" data-category="power-bi">
+            <div class="category-image">
+              <img src="images/sales_dashboard.png" alt="Power BI Dashboards" loading="lazy">
+            </div>
+            <div class="category-content">
+              <h3 class="category-title">Power BI Projects</h3>
+              <p class="category-subtitle">Business Intelligence</p>
+              <div class="category-meta">
+                <span class="project-count">1 Project</span>
+              </div>
+              <button class="btn btn-primary btn-view-projects" data-category="power-bi">
+                View Projects <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Python Projects Card -->
+          <article class="category-card glass-card" data-category="python">
+            <div class="category-image">
+              <img src="images/customer_churn.png" alt="Python Analytics & Automation" loading="lazy">
+            </div>
+            <div class="category-content">
+              <h3 class="category-title">Python Projects</h3>
+              <p class="category-subtitle">Automation & Web Scraping</p>
+              <div class="category-meta">
+                <span class="project-count">1 Project</span>
+              </div>
+              <button class="btn btn-primary btn-view-projects" data-category="python">
+                View Projects <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section> 
+
+    <!-- Education Section -->
+    <section id="education" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Qualifications</span>
+          <h2 class="section-title">Education</h2>
+        </div>
+        
+        <div class="timeline-wrapper">
+          <div class="timeline-card glass-card">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-meta">
+                <span class="timeline-period">2023–2026</span>
+                <span class="timeline-institution">Shree Kalavara Varadharaj M. Shetty Government First Grade College</span>
+              </div>
+              <h3 class="timeline-degree">Bachelor of Computer Applications (BCA)</h3>
+              <p class="timeline-institution" style="margin-bottom: 12px; font-weight: 500;">Shree Kalavara Varadharaj M. Shetty Government First Grade College, Kundapura (Affiliated to Mangalore University)</p>
+              <p class="timeline-desc" style="color: var(--text-muted);">
+                Focused on Database Management Systems, SQL, Python Programming, Statistics, Business Intelligence, Data Analytics, and Data Visualization. Developed strong analytical and problem-solving skillsets.
+              </p>
+              <div class="timeline-score">
+                <i class="fas fa-graduation-cap" style="color: var(--accent);"></i> Academic Performance: <strong>CGPA: 8.61 / 10.0 (Overall)</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Credentials</span>
+          <h2 class="section-title">Certifications</h2>
+        </div>
+        
+        <div class="certs-grid">
+          <!-- Cert 1 -->
+          <div class="cert-card glass-card">
+            <div class="cert-thumbnail-container">
+              <canvas class="pdf-thumbnail" data-pdf="files/Introduction_to_Data_Analytics.pdf"></canvas>
+              <img class="pdf-thumbnail-fallback" src="images/introduction_to_data_analytics.jpg" alt="Introduction to Data Analytics Certificate Thumbnail">
+            </div>
+            <div class="cert-info">
+              <div class="cert-issuer">Simplilearn SkillUp</div>
+              <h3 class="cert-name">Introduction to Data Analytics</h3>
+              <p class="cert-date">Issued: 2026 | Simplilearn SkillUp</p>
+            </div>
+            <button class="btn btn-secondary cert-btn btn-view-cert" data-cert-type="pdf" data-cert-src="files/Introduction_to_Data_Analytics.pdf" data-cert-title="Introduction to Data Analytics - Google (Coursera)">
+              View Certificate <span class="btn-icon"><i class="fas fa-arrow-up-right-from-square"></i></span>
+            </button>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card glass-card">
+            <div class="cert-thumbnail-container">
+              <canvas class="pdf-thumbnail" data-pdf="files/Free_Data_Analyst_Course.pdf"></canvas>
+              <img class="pdf-thumbnail-fallback" src="images/free_data_analyst_course.jpg" alt="Free Data Analyst Course Certificate Thumbnail">
+            </div>
+            <div class="cert-info">
+              <div class="cert-issuer">Simplilearn SkillUp</div>
+              <h3 class="cert-name">Free Data Analyst Course</h3>
+              <p class="cert-date">Issued: 2026 | Simplilearn SkillUp</p>
+            </div>
+            <button class="btn btn-secondary cert-btn btn-view-cert" data-cert-type="pdf" data-cert-src="files/Free_Data_Analyst_Course.pdf" data-cert-title="Free Data Analyst Course - Jovian">
+              View Certificate <span class="btn-icon"><i class="fas fa-arrow-up-right-from-square"></i></span>
+            </button>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card glass-card">
+            <div class="cert-thumbnail-container">
+              <img class="cert-image" src="images/magic_bus.jpg" alt="Magic Bus Certificate Thumbnail" loading="lazy">
+            </div>
+            <div class="cert-info">
+              <div class="cert-issuer">Magic Bus</div>
+              <h3 class="cert-name">Connect with Work Programme</h3>
+              <p class="cert-date">Issued: 2025 | Magic Bus India Foundation</p>
+            </div>
+            <button class="btn btn-secondary cert-btn btn-view-cert" data-cert-type="image" data-cert-src="images/magic_bus.jpg" data-cert-title="Connect with Work Programme - Magic Bus">
+              View Certificate <span class="btn-icon"><i class="fas fa-arrow-up-right-from-square"></i></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Connect</span>
+          <h2 class="section-title">Contact Me</h2>
+        </div>
+        
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <!-- Email -->
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Email</span>
+                <a href="mailto:sanketh@example.com" class="contact-val">sanketha716@gmail.com</a>
+              </div>
+            </div>
+            
+            <!-- Phone -->
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Phone</span>
+                <a href="tel:+919876543210" class="contact-val">+91 82178 73257</a>
+              </div>
+            </div>
+            
+            <!-- GitHub -->
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">GitHub</span>
+                <a href="https://github.com/sankethabhandary" target="_blank" class="contact-val">github.com/sankethabhandary</a>
+              </div>
+            </div>
+            
+            <!-- LinkedIn -->
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/sanketh-bhandary-52b4aa2b6/" target="_blank" class="contact-val">linkedin.com/in/sanketh-bhandary-52b4aa2b6/</a>
+              </div>
+            </div>
+            
+            <!-- Location -->
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Location</span>
+                <span class="contact-val">Udupi,Karnataka, India</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Widget -->
+          <div class="glass-card">
+            <form id="portfolioContactForm" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="formName" class="form-label">Full Name</label>
+                <input type="text" id="formName" name="name" class="form-input" placeholder="e.g. John Doe">
+                <span class="error-message" id="errorName"></span>
+              </div>
+              <div class="form-group">
+                <label for="formEmail" class="form-label">Email Address</label>
+                <input type="email" id="formEmail" name="email" class="form-input" placeholder="e.g. john@example.com">
+                <span class="error-message" id="errorEmail"></span>
+              </div>
+              <div class="form-group">
+                <label for="formSubject" class="form-label">Subject</label>
+                <input type="text" id="formSubject" name="subject" class="form-input" placeholder="Project collaboration proposal">
+                <span class="error-message" id="errorSubject"></span>
+              </div>
+              <div class="form-group">
+                <label for="formMessage" class="form-label">Message</label>
+                <textarea id="formMessage" name="message" class="form-input" placeholder="Write your message details here..."></textarea>
+                <span class="error-message" id="errorMessage"></span>
+              </div>
+              
+              <div id="formStatus" class="form-status" role="alert"></div>
+              
+              <button type="submit" class="btn btn-primary form-submit">
+                Send Message <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-text">
+        &copy; 2026 Sanketh. All rights reserved.
+      </div>
+      <div class="footer-developer">
+        Designed & Developed by <span>Sanketh</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Scroll back to top of page">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Modals & Popups -->
+  <!-- Category Projects Modal -->
+  <div class="modal" id="categoryProjectsModal" role="dialog" aria-modal="true" aria-labelledby="categoryModalTitle">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content glass-card">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+      <div class="modal-body">
+        <div class="modal-category-header">
+          <span class="modal-project-category" id="modalCategoryTag">Projects List</span>
+          <h3 class="modal-project-title" id="categoryModalTitle">Category Projects</h3>
+          <p class="modal-category-subtitle" id="categoryModalSubtitle" style="color: var(--text-muted); font-size: 0.9rem; margin-top: 4px;"></p>
+        </div>
+        <div class="modal-projects-list" id="categoryProjectsList">
+          <!-- Dynamically populated project list -->
+        </div>
+        <div class="modal-project-actions" style="margin-top: 24px; display: flex; justify-content: flex-end;">
+          <button class="btn btn-secondary modal-close-btn">Close Projects</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Screenshot Viewer Modal (Lightbox overlay) -->
+  <div class="modal" id="screenshotViewerModal" role="dialog" aria-modal="true" aria-labelledby="screenshotModalTitle">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content glass-card screenshot-viewer-content">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+      <div class="modal-body">
+        <h3 class="modal-project-title" id="screenshotModalTitle" style="margin-bottom:16px; font-size: 1.5rem;">Project Screenshots</h3>
+        <div class="screenshot-gallery-wrapper">
+          <button class="gallery-arrow prev-arrow" aria-label="Previous screenshot"><i class="fas fa-chevron-left"></i></button>
+          <div class="gallery-image-container">
+            <img src="" alt="Project Screenshot" id="galleryImg">
+          </div>
+          <button class="gallery-arrow next-arrow" aria-label="Next screenshot"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="gallery-counter">
+          <span id="galleryCurrent">1</span> / <span id="galleryTotal">1</span>
+        </div>
+        <div class="modal-project-actions" style="margin-top:20px; display: flex; justify-content: center;">
+          <button class="btn btn-secondary modal-close-btn">Close Gallery</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Certificate Viewer Modal -->
+  <div class="modal" id="certificateViewerModal" role="dialog" aria-modal="true" aria-labelledby="certificateModalTitle">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content glass-card certificate-viewer-content">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+      <div class="modal-body">
+        <h3 class="modal-certificate-title" id="certificateModalTitle" style="margin-bottom:16px; font-size: 1.5rem;">Certificate Viewer</h3>
+        <div class="certificate-container" id="certificateContainer">
+          <!-- Dynamically populated iframe or img -->
+        </div>
+        <div class="certificate-actions" style="margin-top:20px; display:flex; gap:12px; justify-content:center;">
+          <a href="#" target="_blank" download class="btn btn-primary" id="btnDownloadCert">
+            <i class="fas fa-download"></i> Download Certificate
+          </a>
+          <button class="btn btn-secondary modal-close-btn">Close Viewer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Success Popup Modal -->
+  <div class="modal feedback-modal" id="successModal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content glass-card feedback-content">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+      <div class="feedback-icon success-icon">
+        <i class="fas fa-check-circle"></i>
+      </div>
+      <h3 class="feedback-title">✓ Message Sent Successfully!</h3>
+      <div class="feedback-message">
+        <p>Thank you for contacting me.</p>
+        <p>Your message has been successfully delivered.</p>
+        <p>I appreciate your interest and will get back to you as soon as possible.</p>
+      </div>
+      <button class="btn btn-primary feedback-close-btn">Close</button>
+    </div>
+  </div>
+
+  <!-- Error Popup Modal -->
+  <div class="modal feedback-modal" id="errorModal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content glass-card feedback-content">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+      <div class="feedback-icon error-icon">
+        <i class="fas fa-exclamation-circle"></i>
+      </div>
+      <h3 class="feedback-title">Message Failed</h3>
+      <div class="feedback-message">
+        <p>Something went wrong while sending your message.</p>
+        <p>Please try again later.</p>
+      </div>
+      <div class="feedback-actions">
+        <button class="btn btn-primary feedback-retry-btn">Retry</button>
+        <button class="btn btn-secondary feedback-close-btn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <!-- PDF.js SDK -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <!-- Main JavaScript File -->
+  <script src="js/script.js"></script>
+</body>
+</html>
